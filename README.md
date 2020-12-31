@@ -12,7 +12,7 @@ Clona/Descarga el repositorio e instala las dependencias.
 
 ```
  git clone https://github.com/VonHeikemen/es-feriado-chile-v2
- cd es-feriado-chile-v1
+ cd es-feriado-chile-v2
  npm install
 ```
 
