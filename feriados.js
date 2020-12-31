@@ -121,7 +121,7 @@ switch(command) {
 
   case '--version':
   case '-v':
-    console.log('v1.0');
+    console.log('v1.3');
   break;
 
   case '--help':
