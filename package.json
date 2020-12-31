@@ -1,0 +1,22 @@
+{
+  "name": "feriados-chile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "feriados.js",
+  "scripts": {
+    "build": "ncc build ./feriados --out ./dist --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Heiker (https://github.com/VonHeikemen)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "dialog": "^0.3.1",
+    "jsonfile": "^6.1.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.26.1"
+  }
+}
